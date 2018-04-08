@@ -60,12 +60,15 @@ $ npm install vue
 
 Vue.js provides an [official CLI](https://github.com/vuejs/vue-cli) for quickly scaffolding ambitious Single Page Applications. It provides batteries-included build setups for a modern frontend workflow. It takes only a few minutes to get up and running with hot-reload, lint-on-save, and production-ready builds:
 
+
+
 ``` bash
 # install vue-cli
-$ npm install --global vue-cli
-# create a new project using the "webpack" template
-$ vue init webpack my-project
-# install dependencies and go!
+$ npm install -g @vue/cli
+# or
+$ yarn global add @vue/cli
+# create a new project
+# vue create my-project
 $ cd my-project
 $ npm run dev
 ```
